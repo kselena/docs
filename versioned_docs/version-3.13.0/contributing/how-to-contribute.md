@@ -46,8 +46,7 @@ Please note that the Reviewpad [Discord](https://reviewpad.com/discord) is the s
 
 ### Proposing a Change {#proposing-a-change}
 
-If you intend to change a piece of Reviewpad that is not yet being addressed on any issue we first invite you to [fill an issue](https://github.com/reviewpad/reviewpad/issues/new?assignees=&labels=enhancement&template=feature_request.md). This lets us reach an agreement on your proposal before you put significant effort into it.
-
+If you intend to change a piece of Reviewpad that is not yet being addressed on any issue we first invite you to create a [feature request](https://github.com/reviewpad/reviewpad/issues/new?assignees=&labels=enhancement&template=feature_request.md) issue. This lets us reach an agreement on your proposal before you put significant effort into it.
 
 ### Your First Pull Request {#your-first-pull-request}
 
