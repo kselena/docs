@@ -31,6 +31,8 @@ Submit all changes directly to the [`main branch`](https://github.com/reviewpad/
 
 We are using [GitHub Issues](https://github.com/reviewpad/reviewpad/issues) for our bugs. We keep a close eye on this and try to make it clear when we have an internal fix in progress. Before filing a new task, try to make sure your problem doesn't already exist.
 
+If you're only fixing a bug, it's fine to submit a pull request right away but we still recommend to fill an issue detailing what you're fixing. This is helpful in case we don't accept that specific fix but want to keep track of the issue.
+
 #### Reporting New Issues {#reporting-new-issues}
 
 The best way to get your bug fixed is fill our [bug report template](https://github.com/reviewpad/reviewpad/issues/new?assignees=&labels=bug&template=bug_report.md). Please follow the instructions in the template and provide as much information as possible. The more information you provide, the more likely someone will be successful reproducing the bug and finding a fix.
@@ -46,7 +48,6 @@ Please note that the Reviewpad [Discord](https://reviewpad.com/discord) is the s
 
 If you intend to change a piece of Reviewpad that is not yet being addressed on any issue we first invite you to [fill an issue](https://github.com/reviewpad/reviewpad/issues/new?assignees=&labels=enhancement&template=feature_request.md). This lets us reach an agreement on your proposal before you put significant effort into it.
 
-If you're only fixing a bug, it's fine to submit a pull request right away but we still recommend to fill an issue detailing what you're fixing. This is helpful in case we don't accept that specific fix but want to keep track of the issue.
 
 ### Your First Pull Request {#your-first-pull-request}
 
