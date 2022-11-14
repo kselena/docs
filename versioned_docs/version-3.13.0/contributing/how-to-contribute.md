@@ -48,6 +48,13 @@ If you intend to change a piece of Reviewpad that is not yet being addressed on 
 
 If you're only fixing a bug, it's fine to submit a pull request right away but we still recommend to fill an issue detailing what you're fixing. This is helpful in case we don't accept that specific fix but want to keep track of the issue.
 
+### Contribution Prerequisites {#contribution-prerequisites} 
+
+-   You have [GO](https://go.dev) installed with minimum version of 1.18.2.
+-   You have [Taskfile](https://taskfile.dev/installation/) installed.
+-   You have `gcc` installed or are comfortable installing a compiler if needed. Some of our dependencies may require a compilation step. On OS X, the Xcode Command Line Tools will cover this. On Ubuntu, `apt-get install build-essential` will install the required packages. Similar commands should work on other Linux distros. Windows will require some additional steps, see the [`node-gyp` installation instructions](https://github.com/nodejs/node-gyp#installation) for details.
+-   You are familiar with Git.
+
 ### Your First Pull Request {#your-first-pull-request}
 
 Working on your first Pull Request? You can learn how from this free video series:
@@ -71,13 +78,6 @@ If you decide to fix an issue, please be sure to check the comment thread in cas
 7. Do a final check (`task check -f`).
 
 <!-- Add Contributor License Agreement (CLA) -->
-
-### Contribution Prerequisites {#contribution-prerequisites}
-
--   You have [GO](https://go.dev) installed with minimum version of 1.18.2.
--   You have [Taskfile](https://taskfile.dev/installation/) installed.
--   You have `gcc` installed or are comfortable installing a compiler if needed. Some of our dependencies may require a compilation step. On OS X, the Xcode Command Line Tools will cover this. On Ubuntu, `apt-get install build-essential` will install the required packages. Similar commands should work on other Linux distros. Windows will require some additional steps, see the [`node-gyp` installation instructions](https://github.com/nodejs/node-gyp#installation) for details.
--   You are familiar with Git.
 
 ### Development Workflow {#development-workflow}
 
