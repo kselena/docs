@@ -23,7 +23,7 @@ Every significant change is documented in each [release](https://github.com/revi
 
 ### Branch Organization {#branch-organization}
 
-Create your branch off of the main branch and submit a pull request that merges your branch into the [`main branch`](https://github.com/reviewpad/reviewpad/tree/main). We don't use separate branches for development or for upcoming releases and do not have specific naming conventions for new branches.  We do our best to keep `main` in good shape, with all tests passing.
+Create your branch off of the main branch and submit a pull request that merges your branch into the [`main branch`](https://github.com/reviewpad/reviewpad/tree/main). We don't use separate branches for upcoming releases and do not have specific naming conventions for new branches.  We do our best to keep `main` in good shape, with all tests passing.
 
 ### Bugs {#bugs}
 
