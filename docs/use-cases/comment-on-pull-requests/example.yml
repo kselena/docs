@@ -5,7 +5,7 @@ rules:
     spec: $description() == ""
 
   - name: is-first-time-contributor
-    spec: $pullRequestCountBy($author(), "all") == 1
+    spec: $pullRequestCountBy($author()) == 1
 
 workflows:
   - name: welcome-user

@@ -23,7 +23,7 @@ Every significant change is documented in each [release](https://github.com/revi
 
 ### Branch Organization {#branch-organization}
 
-Submit all changes directly to the [`main branch`](https://github.com/reviewpad/reviewpad/tree/main). We don't use separate branches for development or for upcoming releases. We do our best to keep `main` in good shape, with all tests passing.
+Create your branch off of the main branch and submit a pull request that merges your branch into the [`main branch`](https://github.com/reviewpad/reviewpad/tree/main). We don't use separate branches for upcoming releases and do not have specific naming conventions for new branches.  We do our best to keep `main` in good shape, with all tests passing.
 
 ### Bugs {#bugs}
 
@@ -44,9 +44,16 @@ Please note that the Reviewpad [Discord](https://reviewpad.com/discord) is the s
 
 ### Proposing a Change {#proposing-a-change}
 
-If you intend to change a piece of Reviewpad that is not yet being addressed on any issue we first invite you to [fill an issue](https://github.com/reviewpad/reviewpad/issues/new?assignees=&labels=enhancement&template=feature_request.md). This lets us reach an agreement on your proposal before you put significant effort into it.
+If you intend to change a piece of Reviewpad that is not yet being addressed on any issue we first invite you to create a [feature request](https://github.com/reviewpad/reviewpad/issues/new?assignees=&labels=enhancement&template=feature_request.md) issue. This lets us reach an agreement on your proposal before you put significant effort into it.
 
-If you're only fixing a bug, it's fine to submit a pull request right away but we still recommend to fill an issue detailing what you're fixing. This is helpful in case we don't accept that specific fix but want to keep track of the issue.
+If you're only fixing a bug, it's fine to submit a pull request right away but we still recommend to create a [Bug report](https://github.com/reviewpad/reviewpad/issues/new?assignees=&labels=bug&template=bug_report.md&title=) issue detailing what you're fixing. This is helpful in case we don't accept that specific fix but want to keep track of the issue.
+
+### Contribution Prerequisites {#contribution-prerequisites} 
+
+-   You have [GO](https://go.dev) installed with minimum version of 1.18.2.
+-   You have [Taskfile](https://taskfile.dev/installation/) installed.
+-   You have `gcc` installed or are comfortable installing a compiler if needed. Some of our dependencies may require a compilation step. On OS X, the Xcode Command Line Tools will cover this. On Ubuntu, `apt-get install build-essential` will install the required packages. Similar commands should work on other Linux distros. Windows will require some additional steps, see the [`node-gyp` installation instructions](https://github.com/nodejs/node-gyp#installation) for details.
+-   You are familiar with Git.
 
 ### Your First Pull Request {#your-first-pull-request}
 
@@ -71,13 +78,6 @@ If you decide to fix an issue, please be sure to check the comment thread in cas
 7. Do a final check (`task check -f`).
 
 <!-- Add Contributor License Agreement (CLA) -->
-
-### Contribution Prerequisites {#contribution-prerequisites}
-
--   You have [GO](https://go.dev) installed with minimum version of 1.18.2.
--   You have [Taskfile](https://taskfile.dev/installation/) installed.
--   You have `gcc` installed or are comfortable installing a compiler if needed. Some of our dependencies may require a compilation step. On OS X, the Xcode Command Line Tools will cover this. On Ubuntu, `apt-get install build-essential` will install the required packages. Similar commands should work on other Linux distros. Windows will require some additional steps, see the [`node-gyp` installation instructions](https://github.com/nodejs/node-gyp#installation) for details.
--   You are familiar with Git.
 
 ### Development Workflow {#development-workflow}
 
