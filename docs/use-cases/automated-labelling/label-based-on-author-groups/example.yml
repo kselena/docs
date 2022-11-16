@@ -11,7 +11,7 @@ groups:
     kind: developers
     type: filter
     param: developer
-    where: $pullRequestCountBy($developer, "all") < 10
+    where: $pullRequestCountBy($developer) < 10
 
 rules:
   - name: authored-by-new-joiner

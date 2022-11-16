@@ -13,7 +13,7 @@ groups:
     kind: developers
     type: filter
     param: developer
-    where: $pullRequestCountBy($developer, "all") < 10
+    where: $pullRequestCountBy($developer) < 10
 
 workflows:
   - name: ask

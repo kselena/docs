@@ -100,18 +100,10 @@ git commit -m "feat(release): version VERSION"
 
 Where `VERSION` is the version to be released, e.g. `3.3.1`.
 
-After this you can push the changes into the `main` branch.
+After this you can push the changes into the `main` branch which will trigger the deployment.
 
 ```bash
 git push origin main
-```
-
-## Deploy it
-
-Once the current version of `main` is updated with the version to release we can deploy it.
-
-```bash
-yarn deploy
 ```
 
 This will deploy the documentation into github pages which will be live at [docs.reviewpad.com](https://docs.reviewpad.com).

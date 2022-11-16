@@ -7,12 +7,14 @@ Retrieves the total number of pull requests created by the given GitHub user log
 
 **Parameters**:
 
-| Parameter    | Type   | Description                            |
-| :----------- | :----- | :------------------------------------- |
-| `user_login` | string | The GitHub user login.                 |
-| `state`      | string | The issue state (open, closed or all). |
+| Parameter          | Type   | Description                                   |
+| :----------------- | :----- | :-------------------------------------------- |
+| `user_login`       | string | The GitHub user login.                        |
+| `state` (optional) | string | The pull request state (open, closed or all). |
 
 Passing the empty string `""` to `user_login` returns the number of pull requests with a given state in the repository.
+
+Passing the empty string `""` or nothing to `state` defaults to `all`.
 
 **Return value**:
 
