@@ -33,7 +33,7 @@ We are using [GitHub Issues](https://github.com/reviewpad/reviewpad/issues) for 
 
 #### Reporting New Issues {#reporting-new-issues}
 
-The best way to get your bug fixed is fill our [bug report template](https://github.com/reviewpad/reviewpad/issues/new?assignees=&labels=bug&template=bug_report.md). Please follow the instructions in the template and provide as much information as possible. The more information you provide, the more likely someone will be successful reproducing the bug and finding a fix.
+The best way to get your bug fixed is to fill out a [bug report template](https://github.com/reviewpad/reviewpad/issues/new?assignees=&labels=bug&template=bug_report.md). Please follow the instructions in the template and provide as much information as possible. The more information you provide, the more likely someone will be successful reproducing the bug and finding a fix.
 
 ### How to Get in Touch {#how-to-get-in-touch}
 
